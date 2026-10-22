@@ -1,0 +1,33 @@
+{
+  "application_version": 5,
+  "replaces_versions": [1, 2, 3, 4],
+  "order_number": "OPENPLC-TP",
+  "objects": [
+    {"number": 1, "key": "RELAY1_SWITCH", "name": "Relay 1 switch", "function": "Switch", "port": "RY1", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CW", "note": ""},
+    {"number": 2, "key": "RELAY1_STATUS", "name": "Relay 1 status", "function": "Status", "port": "RY1", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 3, "key": "RELAY2_SWITCH", "name": "Relay 2 switch", "function": "Switch", "port": "RY2", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CW", "note": ""},
+    {"number": 4, "key": "RELAY2_STATUS", "name": "Relay 2 status", "function": "Status", "port": "RY2", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 5, "key": "RELAY3_SWITCH", "name": "Relay 3 switch", "function": "Switch", "port": "RY3", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CW", "note": ""},
+    {"number": 6, "key": "RELAY3_STATUS", "name": "Relay 3 status", "function": "Status", "port": "RY3", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 7, "key": "RELAY4_SWITCH", "name": "Relay 4 switch", "function": "Switch", "port": "RY4", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CW", "note": ""},
+    {"number": 8, "key": "RELAY4_STATUS", "name": "Relay 4 status", "function": "Status", "port": "RY4", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 9, "key": "RELAY5_SWITCH", "name": "Relay 5 switch", "function": "Switch", "port": "RY5", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CW", "note": ""},
+    {"number": 10, "key": "RELAY5_STATUS", "name": "Relay 5 status", "function": "Status", "port": "RY5", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 11, "key": "RELAY6_SWITCH", "name": "Relay 6 switch", "function": "Switch", "port": "RY6", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CW", "note": ""},
+    {"number": 12, "key": "RELAY6_STATUS", "name": "Relay 6 status", "function": "Status", "port": "RY6", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 13, "key": "DI1", "name": "DI 1", "function": "Input", "port": "DI1", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 14, "key": "DI2", "name": "DI 2", "function": "Input", "port": "DI2", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 15, "key": "DI3", "name": "DI 3", "function": "Input", "port": "DI3", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 16, "key": "DI4", "name": "DI 4", "function": "Input", "port": "DI4", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 17, "key": "DI5", "name": "DI 5", "function": "Input", "port": "DI5", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 18, "key": "DI6", "name": "DI 6", "function": "Input", "port": "DI6", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 19, "key": "DI7", "name": "DI 7", "function": "Input", "port": "DI7", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 20, "key": "DI8", "name": "DI 8", "function": "Input", "port": "DI8", "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 21, "key": "TEMPERATURE", "name": "Temperature", "function": "Input", "port": null, "size": "2 Bytes", "dpt": "DPST-9-1", "flags": "CWTU", "note": ""},
+    {"number": 22, "key": "TEMPERATURE_SWITCH", "name": "Temperature switch", "function": "Output", "port": null, "size": "1 Bit", "dpt": "DPST-1-1", "flags": "CRT", "note": ""},
+    {"number": 23, "key": "AI1_VOLTAGE", "name": "AI 1 voltage", "function": "Measured value", "port": "AI1", "size": "2 Bytes", "dpt": "DPST-9-20", "flags": "CRT", "note": ""},
+    {"number": 24, "key": "AI2_CURRENT", "name": "AI 2 current", "function": "Measured value", "port": "AI2", "size": "2 Bytes", "dpt": "DPST-9-21", "flags": "CRT", "note": ""},
+    {"number": 25, "key": "AO1_SETPOINT", "name": "AO 1 setpoint", "function": "Setpoint", "port": "AO1", "size": "2 Bytes", "dpt": "DPST-9-21", "flags": "CW", "note": ""},
+    {"number": 26, "key": "AO2_SETPOINT", "name": "AO 2 setpoint", "function": "Setpoint", "port": "AO2", "size": "2 Bytes", "dpt": "DPST-9-21", "flags": "CW", "note": ""}
+  ]
+}

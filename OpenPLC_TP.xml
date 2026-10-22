@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns="http://knx.org/xml/project/20" CreatedBy="OpenKNXproducer" ToolVersion="4.3.12">
+  <ManufacturerData>
+    <Manufacturer RefId="M-00FA">
+      <Catalog>
+        <CatalogSection Id="M-00FA_CS-1" Name="OpenPLC" Number="1" DefaultLanguage="en-US">
+          <CatalogItem Id="M-00FA_H-0001-0_HP-0001-05-0000_CI-OPENPLC.2DTP-1" Name="OpenPLC TP" Number="1" ProductRefId="M-00FA_H-0001-0_P-OPENPLC.2DTP" Hardware2ProgramRefId="M-00FA_H-0001-0_HP-0001-05-0000" DefaultLanguage="en-US" />
+        </CatalogSection>
+      </Catalog>
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-00FA_A-0001-05-0000" ApplicationNumber="1" ApplicationVersion="5" ReplacesVersions="1 2 3 4" ProgramType="ApplicationProgram" MaskVersion="MV-07B0" Name="OpenPLC TP" LoadProcedureStyle="MergedProcedure" PeiType="0" DefaultLanguage="en-US" DynamicTableManagement="false" Linkable="false" MinEtsVersion="5.0">
+          <Static>
+            <Code>
+              <RelativeSegment Id="M-00FA_A-0001-05-0000_RS-05-00000" Name="Parameters" Offset="0" Size="1" LoadStateMachine="4" />
+            </Code>
+            <ComObjectTable>
+              <ComObject Id="M-00FA_A-0001-05-0000_O-1" Name="Relay 1 switch" Text="Relay 1 switch" Number="1" FunctionText="Switch" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-2" Name="Relay 1 status" Text="Relay 1 status" Number="2" FunctionText="Status" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-3" Name="Relay 2 switch" Text="Relay 2 switch" Number="3" FunctionText="Switch" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-4" Name="Relay 2 status" Text="Relay 2 status" Number="4" FunctionText="Status" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-5" Name="Relay 3 switch" Text="Relay 3 switch" Number="5" FunctionText="Switch" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-6" Name="Relay 3 status" Text="Relay 3 status" Number="6" FunctionText="Status" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-7" Name="Relay 4 switch" Text="Relay 4 switch" Number="7" FunctionText="Switch" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-8" Name="Relay 4 status" Text="Relay 4 status" Number="8" FunctionText="Status" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-9" Name="Relay 5 switch" Text="Relay 5 switch" Number="9" FunctionText="Switch" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-10" Name="Relay 5 status" Text="Relay 5 status" Number="10" FunctionText="Status" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-11" Name="Relay 6 switch" Text="Relay 6 switch" Number="11" FunctionText="Switch" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-12" Name="Relay 6 status" Text="Relay 6 status" Number="12" FunctionText="Status" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-13" Name="DI 1" Text="DI 1" Number="13" FunctionText="Input" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-14" Name="DI 2" Text="DI 2" Number="14" FunctionText="Input" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-15" Name="DI 3" Text="DI 3" Number="15" FunctionText="Input" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-16" Name="DI 4" Text="DI 4" Number="16" FunctionText="Input" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-17" Name="DI 5" Text="DI 5" Number="17" FunctionText="Input" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-18" Name="DI 6" Text="DI 6" Number="18" FunctionText="Input" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-19" Name="DI 7" Text="DI 7" Number="19" FunctionText="Input" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-20" Name="DI 8" Text="DI 8" Number="20" FunctionText="Input" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-21" Name="Temperature" Text="Temperature" Number="21" FunctionText="Input" ObjectSize="2 Bytes" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" DatapointType="DPST-9-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-22" Name="Temperature switch" Text="Temperature switch" Number="22" FunctionText="Output" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-1-1" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-23" Name="AI 1 voltage" Text="AI 1 voltage" Number="23" FunctionText="Measured value" ObjectSize="2 Bytes" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-9-20" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-24" Name="AI 2 current" Text="AI 2 current" Number="24" FunctionText="Measured value" ObjectSize="2 Bytes" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-9-21" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-25" Name="AO 1 setpoint" Text="AO 1 setpoint" Number="25" FunctionText="Setpoint" ObjectSize="2 Bytes" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-9-21" />
+              <ComObject Id="M-00FA_A-0001-05-0000_O-26" Name="AO 2 setpoint" Text="AO 2 setpoint" Number="26" FunctionText="Setpoint" ObjectSize="2 Bytes" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" DatapointType="DPST-9-21" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-1_R-1" RefId="M-00FA_A-0001-05-0000_O-1" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-2_R-2" RefId="M-00FA_A-0001-05-0000_O-2" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-3_R-3" RefId="M-00FA_A-0001-05-0000_O-3" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-4_R-4" RefId="M-00FA_A-0001-05-0000_O-4" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-5_R-5" RefId="M-00FA_A-0001-05-0000_O-5" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-6_R-6" RefId="M-00FA_A-0001-05-0000_O-6" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-7_R-7" RefId="M-00FA_A-0001-05-0000_O-7" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-8_R-8" RefId="M-00FA_A-0001-05-0000_O-8" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-9_R-9" RefId="M-00FA_A-0001-05-0000_O-9" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-10_R-10" RefId="M-00FA_A-0001-05-0000_O-10" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-11_R-11" RefId="M-00FA_A-0001-05-0000_O-11" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-12_R-12" RefId="M-00FA_A-0001-05-0000_O-12" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-13_R-13" RefId="M-00FA_A-0001-05-0000_O-13" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-14_R-14" RefId="M-00FA_A-0001-05-0000_O-14" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-15_R-15" RefId="M-00FA_A-0001-05-0000_O-15" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-16_R-16" RefId="M-00FA_A-0001-05-0000_O-16" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-17_R-17" RefId="M-00FA_A-0001-05-0000_O-17" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-18_R-18" RefId="M-00FA_A-0001-05-0000_O-18" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-19_R-19" RefId="M-00FA_A-0001-05-0000_O-19" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-20_R-20" RefId="M-00FA_A-0001-05-0000_O-20" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-21_R-21" RefId="M-00FA_A-0001-05-0000_O-21" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-22_R-22" RefId="M-00FA_A-0001-05-0000_O-22" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-23_R-23" RefId="M-00FA_A-0001-05-0000_O-23" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-24_R-24" RefId="M-00FA_A-0001-05-0000_O-24" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-25_R-25" RefId="M-00FA_A-0001-05-0000_O-25" />
+              <ComObjectRef Id="M-00FA_A-0001-05-0000_O-26_R-26" RefId="M-00FA_A-0001-05-0000_O-26" />
+            </ComObjectRefs>
+            <AddressTable MaxEntries="2600" />
+            <AssociationTable MaxEntries="2600" />
+            <LoadProcedures>
+              <LoadProcedure MergeId="2">
+                <LdCtrlRelSegment AppliesTo="full" LsmIdx="4" Size="1" Mode="0" Fill="0" />
+              </LoadProcedure>
+              <LoadProcedure MergeId="4">
+                <LdCtrlWriteRelMem ObjIdx="4" Offset="0" Size="1" Verify="true" />
+              </LoadProcedure>
+            </LoadProcedures>
+            <Options />
+          </Static>
+          <Dynamic>
+            <ChannelIndependentBlock>
+              <ParameterBlock Id="M-00FA_A-0001-05-0000_PB-1" Name="General" Text="General">
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-1_R-1" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-2_R-2" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-3_R-3" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-4_R-4" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-5_R-5" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-6_R-6" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-7_R-7" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-8_R-8" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-9_R-9" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-10_R-10" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-11_R-11" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-12_R-12" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-13_R-13" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-14_R-14" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-15_R-15" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-16_R-16" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-17_R-17" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-18_R-18" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-19_R-19" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-20_R-20" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-21_R-21" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-22_R-22" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-23_R-23" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-24_R-24" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-25_R-25" />
+                <ComObjectRefRef RefId="M-00FA_A-0001-05-0000_O-26_R-26" />
+              </ParameterBlock>
+            </ChannelIndependentBlock>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+      <Hardware>
+        <Hardware Id="M-00FA_H-0001-0" Name="OpenPLC" SerialNumber="0001" VersionNumber="0" BusCurrent="10" HasIndividualAddress="true" HasApplicationProgram="true">
+          <Products>
+            <Product Id="M-00FA_H-0001-0_P-OPENPLC.2DTP" Text="OpenPLC TP" OrderNumber="OPENPLC-TP" IsRailMounted="true" DefaultLanguage="en-US" />
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-00FA_H-0001-0_HP-0001-05-0000" MediumTypes="MT-0">
+              <ApplicationProgramRef RefId="M-00FA_A-0001-05-0000" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+      </Hardware>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

@@ -1,0 +1,14 @@
+{
+  "note": "Where gen_product.py looks for ETS, in this order; the only file with absolute paths (decision 145). %VAR% is replaced by that environment variable, or by its entry in defaults when unset; a path ending in \\* stands for each of its subfolders. Edit if ETS is installed elsewhere.",
+  "defaults": {
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)"
+  },
+  "candidates": [
+    "%USERPROFILE%\\bin\\CV\\*",
+    "%ProgramFiles(x86)%\\ETS6",
+    "%ProgramFiles%\\ETS6",
+    "%ProgramFiles(x86)%\\ETS5",
+    "%ProgramFiles%\\ETS5"
+  ]
+}
