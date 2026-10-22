@@ -1,4 +1,4 @@
-# OpenPLC ETS product
+# OpenPLC_ETS_Prod
 
 The ETS product file for using the OpenPLC board as a KNX TP device, its source,
 and how to use the board's KNX module.
