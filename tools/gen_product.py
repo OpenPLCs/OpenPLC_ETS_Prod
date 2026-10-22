@@ -343,13 +343,13 @@ def main(argv=None, env=None):
     ap = argparse.ArgumentParser(description="Generate the OpenPLC ETS product and board header "
                                              "from knx_objects.json.")
     ap.add_argument("--root", default=str(REPO_ROOT), help="OpenPLC_ETS_Prod checkout (default: this repo)")
-    ap.add_argument("--core", help="open_plc_arduino checkout (default: ../open_plc_arduino from the repo root)")
+    ap.add_argument("--core", help="OpenPLC_Arduino_PKG checkout (default: ../OpenPLC_Arduino_PKG from the repo root)")
     ap.add_argument("--producer", help="OpenKNXproducer exe (default: tools/OpenKNXproducer/OpenKNXproducer-x64.exe)")
     ap.add_argument("--no-sign", action="store_true", help="write XML and header only")
     args = ap.parse_args(argv)
 
     root = Path(args.root)
-    core = Path(args.core) if args.core else root.parent / "open_plc_arduino"
+    core = Path(args.core) if args.core else root.parent / "OpenPLC_Arduino_PKG"
     xml_path = root / XML_NAME
     header_path = core / HEADER_REL
 

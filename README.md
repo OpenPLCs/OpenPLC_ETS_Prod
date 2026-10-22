@@ -90,12 +90,12 @@ examples only needs the new sketch uploaded; the ETS configuration stays on the 
 
 `python tools/gen_product.py` (or double-click `tools/gen_product.cmd`):
 
-- writes `OpenPLC_TP.xml`, signs it into `OpenPLC_TP.knxprod` with the bundled `tools/OpenKNXproducer/OpenKNXproducer-x64.exe` (`--producer` to use another) and the local ETS 5.7, and writes `open_plc_arduino/libraries/OpenPLC_KNX/src/openplc_knx_objects.h` (`--core` to point elsewhere; `--no-sign` skips signing);
+- writes `OpenPLC_TP.xml`, signs it into `OpenPLC_TP.knxprod` with the bundled `tools/OpenKNXproducer/OpenKNXproducer-x64.exe` (`--producer` to use another) and the local ETS 5.7, and writes `OpenPLC_Arduino_PKG/libraries/OpenPLC_KNX/src/openplc_knx_objects.h` (`--core` to point elsewhere; `--no-sign` skips signing);
 - stops without writing anything when `application_version` is missing;
 - warns, and still generates, when an existing object's number, DPT or flags changed or an object was removed (group address links in users' ETS projects shift), and when objects changed but `application_version` did not; adding objects is silent;
 - looks for ETS in the folders listed in `tools/ets_paths.json`, and reports "only ETS 5.7 is supported for now" when it finds ETS6 but no ETS 5.7.
 
-Every other path the tool uses is relative to this repository; `--core` defaults to `../open_plc_arduino`.
+Every other path the tool uses is relative to this repository; `--core` defaults to `../OpenPLC_Arduino_PKG`.
 
 The header defines `OPENPLC_KNX_ORDER_NUMBER`, `OPENPLC_KNX_APP_VERSION` and one `KNX_OBJ_<key>` per object; examples take object numbers only from it.
 
